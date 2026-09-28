@@ -1,4 +1,4 @@
-# MAT2007 project
+# MAT2007 project - Breast cancer dataset analysis 
 
 ## Project's topic
 The objective of this project is to conduct data analysis through different traits across two groups of breast tumours, benign and malignant in order to determine which traits are associated to each group. 
