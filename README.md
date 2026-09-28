@@ -14,7 +14,8 @@ Hypothesis: malignant tumors have a larger area , are more asymmetric, with roug
 
 ## Data set
 Source: [Breast cancer dataset] (https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset/data) 
-file used: breast-cancer.cvs
+
+File used: breast-cancer.cvs
 
 ## What the script does 
 
