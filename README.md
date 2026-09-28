@@ -21,8 +21,8 @@ file used: breast-cancer.cvs
 ## Ouput 
 
 ## How to run the code?
+R interactive
 
-R interactive 
 code-project-2.0.R
 
 
