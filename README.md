@@ -26,5 +26,9 @@ R interactive
 
 code-project-2.0.R
 
+Visuals were done with python- run the code reading the csv file with the data previously done in R
+
+code-projectvisuals.py
+
 
 
