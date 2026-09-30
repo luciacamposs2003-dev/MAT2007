@@ -47,7 +47,7 @@ File used: breast-cancer.cvs
 ## Ouput 
 The script generates 2 figures and 1 table constructed from the measurements obtained 
 - `Figure_1_MATproject.png`
-- `FigureSEvsSD.png`
+- `Figure_2_MATproject.png`
 - Table analysis statistical uncertainty through p value 
 
 
