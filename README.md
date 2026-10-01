@@ -10,7 +10,7 @@ This was conducted using statistical measurements such as the mean, mean differe
 
 
 ## Research question and hypothesis 
-How do tumor characteristics differ between benign and malignant breast tumors, and what is the statistical uncertainty associated with these differences?
+Research question: are the selected characteristics of breast tumors significantly associated with benign or malignant tumor classification?
 
 Hypothesis: malignant tumors have a larger area , are more asymmetric, with rougher texture and more concave compared to benign tumors
  
