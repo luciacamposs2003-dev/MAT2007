@@ -54,9 +54,9 @@ The script generates 2 figures and 1 table constructed from the measurements obt
 ## How to run the code?
 R interactive - `code-project-2.0.R`
 
-Visuals were done with python- run the code reading the csv file with the data previously done in R - `code_projectvisualisation.py
+Visuals were done with python- run the code reading the csv file with the data previously done in R - `code_projectvisualisation.py`
 
-code-projectvisuals.py
+
 
 
 
