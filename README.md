@@ -19,11 +19,13 @@ Hypothesis: malignant tumors have a larger area , are more asymmetric, with roug
 ## Data set
 Source: [Breast cancer dataset] (https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset/data) 
 
-File used: breast-cancer.cvs
+File used: `breast-cancer.cvs`
 
 ## What the script does 
 1.- Reads the dataset with the breast tumour values
-2.- Calculates different statistical parameters for the two group of tumours in different traits chosen 
+
+2.- Calculates different statistical parameters for the two group of tumours in different traits chosen
+
     2.1 The mean for benign and malignant tumours independently 
     
     2.1 The mean difference for every trait subtracting mean_malignant - mean_benign
