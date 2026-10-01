@@ -1,12 +1,9 @@
 # MAT2007 project - Breast cancer dataset analysis 
 
 ## Project's topic
-The objective of this project is to conduct data analysis through different traits across two groups of breast tumours, benign and malignant in order to determine which traits are associated to each group. 
+This study investigates whether selected characteristics of breast tumors (area, symmetry, texture and concavity) differ between two groups of tumors, malignant and benign. These four traits were examined and compared between the two groups using statistical methods. The mean, standard deviation were calculated for each characteristic, followed by a t-test with the objective of determining if the observed differences are statistically significant. 
 
-The traits chosen were; area, asymmetry, texture and concavity
-
-
-This was conducted using statistical measurements such as the mean, mean difference, statistical uncertainty, statistical error and finally a t test to obtain the p value and determine if the values are statistically significant and being able to draw conclusions from the biological perspective.  
+The motivation behind this analysis is to investigate whether measurable differences in tumour traits are associated with malignancy. A statistically significant difference between benign and malignant tumours would indicate that the characteristic is associated with the tumour classification found in the dataset analysed. However, I would like to highlight that statistical significance alone is a not a tool to establish that a trait can be used as a diagnostic, rather with this project I wanted to provide an initial assessment and see if their analysis could provide future investigation as potential markers to distinguish between benign and malignant tumours.
 
 
 ## Research question and hypothesis 
