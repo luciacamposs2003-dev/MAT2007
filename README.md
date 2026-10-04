@@ -36,7 +36,7 @@ File used: `breast-cancer.csv`
     Symmetry  = (malignant SD + benign SD) --> combined into 1 standard error
     etc
     
-    2.4 A test was finally performed to obtain the p value
+    2.4 A test was finally performed to obtain the p value and determine statistical significance 
 
     SE_diff = sqrt(s^2malignant/n_malignant +s^2benign/n_benign) 
 
@@ -47,7 +47,7 @@ File used: `breast-cancer.csv`
 The script generates 2 figures and 1 table constructed from the measurements obtained 
 - `Figure_1_MATproject.png`
 - `Figure_2_MATproject.png`
-- Table analysis statistical uncertainty through p value 
+- Table analysis statistical significance showing t-scores and p-value 
 
 
 ## How to run the code?
