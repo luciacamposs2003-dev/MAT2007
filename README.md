@@ -28,26 +28,19 @@ It is important to take into account that the datapoints in this set are already
 
 2.- Calculates different statistical parameters for the two group of tumours in different traits chosen
 
-    2.1 The mean for benign and malignant tumours independently 
-    
-    2.1 The mean difference for every trait subtracting mean_malignant - mean_benign
-    
-    2.2 The standard deviation (sd) for every trait for the two groups 
-    
-    2.3 The standard error of the mean difference  was calculated following the pattern shown below
+n_benign, n_malignant is the sample number 
 
-    Area = (malignant SD + benign SD) --> combined into 1 standard error
+    2.1 The mean for benign and malignant tumours independently. Formula: sum(benign) / n_benign or sum(malignant) / n_malignan 
     
-    Symmetry  = (malignant SD + benign SD) --> combined into 1 standard error
-    etc
+    2.1 The mean difference for every trait subtracting. Formula: mean_malignant - mean_benign
     
+    2.2 The standard deviation (sd) for every trait for the two groups. Formula: sqrt(sum((benign - mean_benign^2) / n_benign - 1)  
+    
+    2.3 The standard error of the mean difference  was calculated following the pattern shown below. Formula:  SE_diff = sqrt(sd^2malignant/n_malignant +sd^2benign/n_benign)  
+
     2.4 A test was finally performed to obtain the p value and determine statistical significance 
 
-    SE_diff = sqrt(s^2malignant/n_malignant +s^2benign/n_benign) 
-
-    
-
-
+  
 ## Ouput 
 The R script generates different numerical values; we obtained 4 mean values gathering the datapoints for each group (benign and malignant) independently which was then used to calculate the mean difference. We also obtained the standard deviation in order to see how spread the values are around their mean. The standard error over the mean difference and finally a t test was conducted to measure statistical significance. 
 These results are displayed on the R terminal once you run the code. 
