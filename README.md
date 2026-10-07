@@ -10,7 +10,17 @@ The motivation behind this analysis is to investigate whether measurable differe
 Research question: are the selected traits of breast tumors significantly associated with benign or malignant tumor classification?
 
 Hypothesis: malignant tumors have a larger area , are more asymmetric, with rougher texture and more concave compared to benign tumors
- 
+
+ ## User guide 
+ Programs and packages needed in order to run the code
+
+ - R (version:4.6.1)
+   
+ - Python (version: 3.14.8)
+   
+ - Numpy, Pandas and Matplotlib (arrays, matrices and visualisation)
+   
+ - Vscode (to support the programming languages)
 
 
 ## Data set
