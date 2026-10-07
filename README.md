@@ -21,6 +21,8 @@ File used: `breast-cancer.csv`
 The dataset consists of around 17k datapoints, and it is composed of tumor ID, diagnosis (whether is B or M) and trai. Each row in the file represents a different tumor and each datapoint is the mean value for that specific trait and tumor, therefore it is not an absolute value. 
 For this project around 2k datapoints were used.
 
+It is important to take into account that the datapoints in this set are already the mean value for each trait and tumor when analysing it. 
+
 ## What the script does 
 1.- Reads the dataset with the breast tumour values
 
