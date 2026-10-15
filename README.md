@@ -41,7 +41,7 @@ n_benign, n_malignant = sample number
 
    <img width="672" height="212" alt="Screenshot 2026-10-15 at 13 45 48" src="https://github.com/user-attachments/assets/17ad8aa4-ed3b-4ebb-bdc1-46850104fdf5" />
 
-3.- Creates a table with data.frame() function, which is later saved as a csv file and read by python to create the graphs. 
+3.- The results are saved in another csv file which will be read by python to create the graphs  
 
   
 ## Ouput 
@@ -50,7 +50,7 @@ These results are displayed on the R terminal as a table once you run the code.
 
 - `code-project-2.0.R`
 
-For the second part of the analysis, another table is created with the results obtained explicitly written inside, this table is saved as a csv file with the name `tumor_analysis_results.csv`. 
+For the second part of the analysis, the results are saved as a csv file with the name `tumor_analysis_results.csv`. 
 
 The pyhton script generates 2 figures by reading `tumor_analysis_results.csv`  created previously with R. 
 
@@ -60,9 +60,9 @@ The pyhton script generates 2 figures by reading `tumor_analysis_results.csv`  c
 
 
 ## How to run the code?
-R interactive - `code-project-2.0.R`
+```R interactive - `code-project-2.0.R`
 
-Visuals were done with python- run the code reading the csv file with the data previously done in R - `code_projectvisualisation.py`
+```Python3 `code_projectvisualisation.py`
 
 
 
