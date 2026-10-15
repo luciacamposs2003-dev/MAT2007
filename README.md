@@ -38,17 +38,11 @@ It is important to take into account that the datapoints in this set are already
 
 2.- Calculates different statistical parameters for the two group of tumours in different traits chosen
 
-n_benign, n_malignant is the sample number 
+n_benign, n_malignant = sample number 
 
-    2.1 The mean for benign and malignant tumours independently. Formula: sum(benign) / n_benign or sum(malignant) / n_malignan 
-    
-    2.1 The mean difference for every trait subtracting. Formula: mean_malignant - mean_benign
-    
-    2.2 The standard deviation (sd) for every trait for the two groups. Formula: sqrt(sum((benign - mean_benign^2) / n_benign - 1)  
-    
-    2.3 The standard error of the mean difference  was calculated following the pattern shown below. Formula:  SE_diff = sqrt(sd^2malignant/n_malignant +sd^2benign/n_benign)  
+   <img width="672" height="212" alt="Screenshot 2026-10-15 at 13 45 48" src="https://github.com/user-attachments/assets/17ad8aa4-ed3b-4ebb-bdc1-46850104fdf5" />
 
-    2.4 A test was finally performed to obtain the p value and determine statistical significance 
+3.- Creates a table with data.frame() function, which is later saved as a csv file and read by python to create the graphs. 
 
   
 ## Ouput 
