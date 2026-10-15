@@ -31,7 +31,6 @@ File used: `breast-cancer.csv`
 The dataset consists of around 17k datapoints, and it is composed of tumor ID, diagnosis (whether is B or M) and trai. Each row in the file represents a different tumor and each datapoint is the mean value for that specific trait and tumor, therefore it is not an absolute value. 
 For this project around 2k datapoints were used.
 
-It is important to take into account that the datapoints in this set are already the mean value for each trait and tumor when analysing it. 
 
 ## What the script does 
 1.- Reads the dataset with the breast tumour values
@@ -47,14 +46,17 @@ n_benign, n_malignant = sample number
   
 ## Ouput 
 The R script generates different numerical values; we obtained 4 mean values gathering the datapoints for each group (benign and malignant) independently which was then used to calculate the mean difference. We also obtained the standard deviation in order to see how spread the values are around their mean. The standard error over the mean difference and finally a t test was conducted to measure statistical significance. 
-These results are displayed on the R terminal once you run the code. 
+These results are displayed on the R terminal as a table once you run the code. 
 
 - `code-project-2.0.R`
 
-The pyhton script generates 2 figures and 1 table constructed from the measurements obtained 
+For the second part of the analysis, another table is created with the results obtained explicitly written inside, this table is saved as a csv file with the name `tumor_analysis_results.csv`. 
+
+The pyhton script generates 2 figures by reading `tumor_analysis_results.csv`  created previously with R. 
+
 - `Figure_1_MATproject.png`
 - `Figure_2_MATproject.png`
-- Table analysis statistical significance showing t-scores and p-value 
+
 
 
 ## How to run the code?
